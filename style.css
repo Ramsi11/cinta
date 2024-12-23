@@ -1,0 +1,264 @@
+/* Global Styles */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #e3e4e8;
+    color: #2a2f36;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #4b3c57;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    color: #ff5c8d;
+    font-style: italic;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #e0b0a2;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  nav ul li a:hover {
+    color: #ff5c8d;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    background-color: #4b3c57;
+    color: #e0b0a2;
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  button, .button {
+    background-color: #6c4f6d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  button:hover, .button:hover {
+    background-color: #ff5c8d;
+    transition: background-color 0.3s;
+  }
+  
+  section {
+    margin-top: 30px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header & Navigation Styling */
+  header {
+    background-color: #4b3c57;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-style: italic;
+  }
+  
+  nav ul {
+    margin-top: 15px;
+  }
+  
+  nav ul li a:hover {
+    color: #ff5c8d;
+  }
+  
+  /* Intro Section Styling */
+  .intro {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e4c7c1;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .intro h2 {
+    font-size: 2.8rem;
+    color: #4b3c57;
+    font-style: italic;
+  }
+  
+  .intro p {
+    font-size: 1.2rem;
+    color: #4b3c57;
+    margin: 20px 0;
+  }
+  
+  .intro .button {
+    margin-top: 20px;
+    background-color: #4b3c57;
+  }
+  
+  /* About Section Styling */
+  .about {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    color: #4b3c57;
+    font-style: italic;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    color: #2a2f36;
+    margin-top: 20px;
+  }
+  
+  /* Contact Form Styling */
+  .contact {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact label {
+    font-size: 1rem;
+    color: #4b3c57;
+    margin: 10px 0;
+    display: block;
+  }
+  
+  .contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .contact textarea {
+    resize: vertical;
+    height: 150px;
+  }
+  
+  /* Testimonials Section Styling */
+  .testimonials {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e4c7c1;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .testimonials h2 {
+    font-size: 2rem;
+    color: #4b3c57;
+  }
+  
+  .testimonials p {
+    font-size: 1.2rem;
+    color: #2a2f36;
+    margin: 20px 0;
+  }
+  
+  /* Blog Section Styling */
+  .blog {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .blog h2 {
+    font-size: 2rem;
+    color: #4b3c57;
+  }
+  
+  .blog p {
+    font-size: 1.2rem;
+    color: #2a2f36;
+    margin: 10px 0;
+  }
+  
+  .blog a {
+    color: #6c4f6d;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .blog a:hover {
+    color: #ff5c8d;
+    text-decoration: underline;
+  }
+  
+  /* FAQ Section Styling */
+  .faq {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .faq h2 {
+    font-size: 2rem;
+    color: #4b3c57;
+  }
+  
+  .faq-item {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-item h3 {
+    font-size: 1.5rem;
+    color: #4b3c57;
+  }
+  
+  .faq-item p {
+    font-size: 1rem;
+    color: #2a2f36;
+  }
